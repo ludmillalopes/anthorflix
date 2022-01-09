@@ -1,14 +1,14 @@
 import React from "react";
-import Content from "../components/Content";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Crud from "../components/Crud";
+import Footer from "../components/Footer";
 
-export default function Home() {
+export default function CrudPage() {
 
   return (
     <>
       <Header />
-      <Content />
+      <Crud />
       <Footer />
     </>  
   );

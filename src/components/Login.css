@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nova+Square&display=swap'); */
+
+.login {
+  color: #fff;
+  padding: 120px 40px;
+}
+
+.login_container {
+  margin: 0 auto;
+  max-width: 400px;
+  min-width: 50vw;
+  background-image: linear-gradient(to right top, #00294e, #00305b, #003768, #003e75, #004583);
+  padding: 60px 40px;
+  border-radius: 40px;
+  min-width: 266px;
+}
+
+.login_container h2 {
+  text-align: center;
+  font-size: 1.25em;
+  margin-bottom: 60px;
+}
+
+.login_form-item span {
+  color: #6BD12F;
+  font-size: .8em;
+  vertical-align: top;
+}
+
+.login_form-item input {
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 10px;
+}
+
+.login_form-item input::placeholder {
+  color: #00294E;
+}
+
+#email, #password {
+  margin: 5px 0 15px;
+}
+
+.link-cadastro {
+  display: block;
+  color: #6BD12F;
+  font-size: 0.875rem;
+  text-align: end;
+  transition: all 200ms ease-out;
+}
+
+.link-cadastro:hover {
+  color: #2E9D9F;
+}
+
+.login_form-btn {
+  cursor: pointer;
+  display: block;
+  margin: 45px auto 0;
+  width: 100%;
+  height: 50px;
+  background: #6BD12F;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.125em;
+  box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, .4);
+  transition: all 200ms ease-out;
+}
+.login_form-btn:hover {
+  background: #2E9D9F;
+  font-size: 1em;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, .4);
+}

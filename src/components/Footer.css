@@ -1,0 +1,60 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nova+Square&display=swap'); */
+
+.footer {
+  background: #6BD12F;
+  color: #00294E;
+  padding: 60px 40px 20px;
+}
+
+.footer_menu, .footer_privacidade {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer_menu-item {
+  flex: 1 1 33.33%;
+}
+
+footer h2 {
+  font-size: 1.625rem;
+  margin-bottom: 20px;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+.rede-social {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.rede-social i {
+  font-size: 1.75rem;
+  padding: 10px 5px;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: #00294E;
+  transition: all 200ms ease-out;
+}
+
+.footer a:hover {
+  color: #2E9D9F;
+}
+
+.footer_menu-item a {
+  color: #fff;
+}
+
+.footer_privacidade {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+  font-size: .8rem;
+}

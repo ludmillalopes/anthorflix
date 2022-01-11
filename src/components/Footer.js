@@ -1,5 +1,5 @@
 import React from 'react';
-import '../components/Footer.css';
+import '../components/style/Footer.css';
 
 export default function Footer() {
 
@@ -16,8 +16,8 @@ export default function Footer() {
               <li><a href="#" target="_blank">Contato</a></li>
             </ul>
             
-            <ul className="footer_menu-item Gêneros">
-              <h2>Filmes</h2>
+            <ul className="footer_menu-item generos">
+              <h2>Gêneros</h2>
               <li><a href="#" target="_blank">Animação</a></li>
               <li><a href="#" target="_blank">Ação</a></li>
               <li><a href="#" target="_blank">Comédia</a></li>
@@ -28,19 +28,19 @@ export default function Footer() {
             
             <ul className="footer_menu-item listas">
               <h2>Listas</h2>
-              <li><a href="#melhores-avaliações">Melhores Avaliações</a></li>
-              <li><a href="#pop">Populares</a></li>
-              <li><a href="#pop-semana">Populares da Semana</a></li>
-              <li><a href="#recentes">Recentes</a></li>
+              <li><a href="#">Melhores Avaliações</a></li>
+              <li><a href="#">Populares</a></li>
+              <li><a href="#">Populares da Semana</a></li>
+              <li><a href="#">Recentes</a></li>
               <li><a href="#" target="_blank">Minhas Listas</a></li>
             </ul>            
           </nav>
 
           <div className="footer_privacidade-item rede-social">
-            <a href="#" title="Facebock" target="_blank"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="#" title="Facebock" target="_blank"><i className="fab fa-facebook-f"></i></a>
+            <a href="#" title="Instagram" target="_blank"><i className="fab fa-instagram"></i></a>
+            <a href="#" title="Twitter" target="_blank"><i className="fab fa-twitter"></i></a>
+            <a href="#" title="YouTube" target="_blank"><i className="fab fa-youtube"></i></a>
           </div>
           
           <div className="footer_privacidade">

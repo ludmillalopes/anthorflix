@@ -1,0 +1,6 @@
+.busca-filme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background: #00294E;
+}

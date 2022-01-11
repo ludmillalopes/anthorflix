@@ -1,16 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import Home from './pages/Home';
-// import SignIn from './pages/SignIn';
-// import CadastroPage from './pages/CadastroPage';
-import CrudPage from './pages/CrudPage';
+import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Home /> */}
-    {/* <SignIn /> */}
-    {/* <CadastroPage /> */}
-    <CrudPage />
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

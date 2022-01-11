@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Home from '../pages/Home'
-import '../components/Cadastro.css';
+import '../components/style/Cadastro.css';
 
 export default function Cadastro() {
 
@@ -30,7 +30,7 @@ export default function Cadastro() {
         <div className="cadastro_container">
           <h2>Faça o seu cadastro</h2>
           
-          <form className="cadastro_form">
+          <form action="/" className="cadastro_form">
             <div className="cadastro_form-item">
               <label htmlFor="username">Nome de usuário<span> *</span></label>
               <input 
@@ -90,15 +90,6 @@ export default function Cadastro() {
                 }}
               />
             </div>
-
-            {/* <ul className="padrao-senha">
-              <p>Sua senha deve conter:</p>
-              <li>mínimo 6 caracteres</li>
-              <li>letras maiúsculas</li>
-              <li>letras minúsculas</li>
-              <li>ao menos um número</li>
-              <li>ao menos um caracter especial</li>
-            </ul> */}
 
             <button 
               type="button"

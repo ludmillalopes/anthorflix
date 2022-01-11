@@ -1,0 +1,25 @@
+.content {
+  padding: 120px 40px;
+  color: #00294E;
+}
+
+.content_intro h2 {
+  margin-bottom: 20px;
+}
+
+.content_busca {
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  padding: 0 14px;
+  margin: 40px 0;
+  text-align: center;
+  background: #6ad12f50;
+  outline-style: none;
+  caret-color: #00294E;
+  color: #00294E;
+}
+
+.content_busca::placeholder {
+  color: #00294E;
+}

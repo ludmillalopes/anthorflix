@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import Home from '../pages/Home'
-import '../components/Login.css';
+import '../components/style/Login.css';
 
 
 export default function Login() {
@@ -29,7 +29,7 @@ export default function Login() {
         <div className="login_container">
           <h2>Faça o seu login</h2>
           
-          <form className="login_form">
+          <form className="login_form" action="/">
             <div className="login_form-item">
               <label htmlFor="email">E-mail<span> *</span></label>
               <input 

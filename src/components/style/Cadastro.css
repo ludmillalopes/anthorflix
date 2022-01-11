@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nova+Square&display=swap'); */
-
 .cadastro {
   color: #fff;
   padding: 120px 40px;
@@ -42,14 +40,6 @@
 #username, #email, #password {
   margin: 5px 0 15px;
 }
-
-/* .padrao-senha {
-  display: block;
-  color: #6BD12F;
-  font-size: 0.875rem;
-  text-align: end;
-  transition: all 200ms ease-out;
-} */
 
 .cadastro_form-btn {
   cursor: pointer;

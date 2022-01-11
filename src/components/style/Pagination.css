@@ -1,0 +1,19 @@
+.pagination_container {
+  display: flex;
+  justify-content: end;
+  background: #00294E;
+}
+
+.pagination_container a {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.pagination_container li {
+  margin: 20px 0;
+}
+
+.pagination_container li:last-child {
+  margin-right: 35px;
+}

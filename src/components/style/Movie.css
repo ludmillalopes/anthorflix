@@ -1,0 +1,14 @@
+.movie {
+  flex: 0 1 0;
+  margin: 10px;
+}
+
+.movie h3 {
+  display: block;
+  padding: 40px 0;
+}
+
+#movie_poster-static {
+  height: 278px;
+  max-width: 185px;
+}

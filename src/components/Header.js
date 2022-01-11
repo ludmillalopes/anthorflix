@@ -1,22 +1,10 @@
 import React, {useState} from 'react';
-import '../components/Header.css';
+import '../components/style/Header.css';
 
-export default function Header() {
+export default function Header(props) {
   
-  const [show, setShow] = useState(true);
-
-
-  const envioBusca = function() {
-    alert('teste');
-    const headerBusca = document.getElementsByClassName('header_busca');
-    headerBusca.addEventListener("keyup", function(event) {
-      if (event.keyCode === 13) {
-        event.preventDefault();
-      }
-    });
-  }
-
-
+  const [show, setShow] = useState(false);
+    
   return (
     <>
       <header className="header_container">
@@ -30,21 +18,21 @@ export default function Header() {
             <a href="#">
               <i 
                 id="icon-busca"
-                class="fas fa-search"
+                className="fas fa-search"
                 onClick={() => setShow((s) => !s)}
-                // on={() => setShow((s) => !s)} /* ENCONTRAR EVENTO QUE ESCONDA O INPUT AO CLICAR FORA DELE */
                 ></i>
             </a>
-
-            <input 
-              className="header_busca"
-              type="search"
-              style={{ display: show ? "block" : "none" }}
-            />
-              
+            
+            <form action="" onSubmit={props.handleSubmit}>
+              <input 
+                className="header_busca"
+                type="text"
+                onChange={props.handleChange}
+                style={{ display: show ? "block" : "none" }}
+              />
+            </form>    
           </ul>
         </nav>
-
 
         <nav className="header_login">
           <ul>

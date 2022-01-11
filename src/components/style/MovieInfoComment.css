@@ -1,0 +1,82 @@
+.movie-comment_item {
+  margin-top: 60px;
+}
+
+.new-comment label {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 60px 25px 30px;
+}
+
+.new-comment_text {
+  display: flex;
+}
+
+#new-comment {
+  flex: 1 1 0;
+  background: #6ad12f50;
+  border: none;
+  border-radius: 25px 0 0 25px;
+  padding: 25px;
+  outline-style: none;
+}
+
+#new-comment::placeholder {
+  color: #00294E;
+}
+
+#new-comment_btn {
+  cursor: pointer;
+  background: #6ad12f50;
+  border: none;
+  border-radius: 0 25px 25px 0;
+  transition: all 200ms ease-out;
+}
+
+#icon-new-comment_btn {
+  color: #00294E;
+  padding: 15px;
+  font-size: 1.25rem;
+}
+
+#new-comment_btn:hover {
+  background: #2E9D9F;
+}
+
+.saved-comment {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid #6BD12F;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 15px 0;
+}
+
+.avatar-user {
+  border-radius: 50%;
+  max-width: 70px;
+  flex: 0 1 auto;
+  align-self: flex-start;
+  margin: 0 30px 15px 0;
+}
+
+.text-comment {
+  flex: 1 1 0;
+  min-width: 250px;
+  line-height: 1.2em;
+}
+
+.comment-vote {
+  margin-top: 10px;
+}
+
+#like, #dislike {
+  padding: 5px;
+  cursor: pointer;
+  color: #6BD12F;
+}
+
+#like:hover, #dislike:hover {
+  color: #2E9D9F;
+}

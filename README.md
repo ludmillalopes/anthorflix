@@ -53,7 +53,8 @@ Trata-se de uma aplicação web, criada utilizando React, para compartilhar film
 
 <h2 id="bugs">⚙️ Bugs conhecidos</h2>
 
-- Falha nas rotas para a página de login e cadastro.
+- Falha nas rotas para a página de login e cadastro (CORRIGIDO: uso de método antigo);
+- Paginação continua aparecendo na tela de detalhes do filme.
 
 ---
 
